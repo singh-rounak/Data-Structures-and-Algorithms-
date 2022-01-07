@@ -1,7 +1,6 @@
 class Solution(object):
   
   def twosum(self, nums, target):
-    
     Hamp = {}
     
     for i in range(len(nums)):
