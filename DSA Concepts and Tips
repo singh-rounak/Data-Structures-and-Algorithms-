@@ -1,0 +1,3 @@
+Binary Search: Olog(n)
+
+if the array is sorted, perform binary search -> divide the array and keep dividing it into halfs until it reduces to just one element
