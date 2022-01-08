@@ -17,6 +17,6 @@ print(Object.findDisappearedNumbers(nums))
 
 """
 O(n) Linear Time 
-O(1) Constant Space
+O(1) Constant Space.
 """
 
