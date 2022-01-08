@@ -16,7 +16,7 @@ Object  = Solution()
 print(Object.findDisappearedNumbers(nums))
 
 """
-Time O(n)
-Space O(1)
+O(n) Linear Time 
+O(1) Constant Space
 """
 
