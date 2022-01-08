@@ -1,6 +1,4 @@
 
- 
-
 class Solution(object):
 	def findDisappearedNumbers(self, nums):
  		Out = []
@@ -13,5 +11,12 @@ class Solution(object):
 
 nums = [4,3,2,7,8,2,3,1]
 
+#Driver Code
 Object  = Solution()
 print(Object.findDisappearedNumbers(nums))
+
+"""
+Time O(n)
+Space O(1)
+"""
+
