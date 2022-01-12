@@ -18,3 +18,11 @@ class Solution(object):
 A = Solution()
 b = [1, 2, 2, 5]
 print(A.subsetsWithDup(b))
+
+"""
+Out -
+
+[[], [1], [1, 2], [1, 2, 2], [1, 2, 2, 5], [1, 2, 5], [1, 5], [2], [2, 2], [2, 2, 5], [2, 5], [5]]
+Time = O(nlog(n))
+Spcae = O(n)
+"""
