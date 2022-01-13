@@ -14,5 +14,5 @@ OUT 4
 [Finished in 0.3s]
 
 Time: O(logn)
-Space:1
+Space:O(1)
 """
