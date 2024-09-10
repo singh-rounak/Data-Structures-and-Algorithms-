@@ -41,8 +41,8 @@ class Array:
 
     def search(self,element):
         for i in range(self.count):
-            if i == element:
-                return i #retuen the index
+            if self.array[i] == element:
+                return i #return the index
         return -1 #not found
     
     def traverse(self):
@@ -71,3 +71,8 @@ print('after updating index 1 to 25:', my_array)
 
 my_array.delete(2)
 print('after deleting at index 2:', my_array)
+
+print(str(my_array))
+
+print(my_array.search(25))
+
