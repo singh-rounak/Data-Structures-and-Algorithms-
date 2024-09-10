@@ -7,13 +7,13 @@ class Stack:
         self.stack.append(item)
 
     def pop(self):
-        if self.stack.is_empty():
+        if self.is_empty():
             print('Stack is empty')
         item = self.stack.pop()
         return item
 
     def peek(self):
-        if self.stack.is_empty():
+        if self.is_empty():
             print('Stack is empty')
         else:
             return self.stack[-1]
@@ -22,4 +22,4 @@ class Stack:
         return len(self.stack) == 0
 
     def display(self):
-        return self.stack
+        print("Current Stack =", self.stack)
