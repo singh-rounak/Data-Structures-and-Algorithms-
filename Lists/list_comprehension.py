@@ -4,6 +4,11 @@ LIST COMPREHESIONS IN PYTHON
 syntax : [expression for item in list if condition == True]
 The 'if' condition is optional.
 
+Why are list comprehensions extensively used?
+-> List comprehensions are used to make the code clear and concise by eliminating 'for' loops
+-> Can create lists from scratch
+-> Can be used to create new lists from existing lists
+
 '''
 
 nums = [1,2,3,4,5,6,7,8,9,10]
