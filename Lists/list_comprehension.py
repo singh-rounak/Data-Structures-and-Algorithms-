@@ -2,11 +2,12 @@
 LIST COMPREHESIONS IN PYTHON
 
 syntax : [expression for item in list if condition == True]
+The 'if' condition is optional.
 
 '''
 
-nums = nums = [1,2,3,4,5,6,7,8,9,10]
-
+nums = [1,2,3,4,5,6,7,8,9,10]
+print("Nums = ", nums)
 # my_list = []
 # for num in nums:
 #   my_list.append(num)
@@ -29,7 +30,7 @@ print('output = ' , doubled_positive_only)
 squared_numbers = [num*num for num in new_list]
 print('squared = ', squared_numbers)
 
-#Even numbers only
+# #Even numbers only
 
 even_only = [num for num in nums if num%2 == 0]
 print('even_only = ', even_only)
@@ -41,8 +42,11 @@ print('subset=',subset)
 odd_subset = [num for num in range(5) if num %2 !=0]
 print("Odd subset = ", odd_subset)
 
-even_subset = [num for num in range(5,10) if num %2 ==0]
-print("Even subset = ", even_subset)
+# even_subset = [num for num in range(5,10) if num %2 ==0]
+# print("Even subset = ", even_subset)
 
-for i in range(5,11):
-    print(i)
+get_in_range = [i for i in range(5,9)]
+print(get_in_range)
+print(range(10))
+
+
