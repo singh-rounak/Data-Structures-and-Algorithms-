@@ -31,7 +31,7 @@ dict = {k1:{k2: k1*k2 for k2 in range(1,6)} for k1 in range(2,5)}
 print(dict)
 #Note - when nested loops are used, Python first executes outer loop then inner loop.
 
-#The above can also be broken dow as:
+#The above can also be broken down as:
 dict1 = {}
 for k1 in range(2,5):
     dict1[k1] = {k2:k2*k1 for k2 in range(1,6)} 
@@ -45,3 +45,17 @@ for k1 in range(2,5):
         Hmap[k1][k2] = k1*k2
 
 print(Hmap)
+
+# First for loop execution output looks like this - 
+# Hamp = {2:{}, 3:{}, 4:{}}
+
+# Second for loop execution output looks like this separately -
+# hmap[2] - {1:2, 2:4, 3:6 ,4:8, 5:10}
+# hmap[3] - {1:3, 2:6, 3:9, 4:12, 5:15}
+# hmap[4] - {1:4, 2:8, 3:12, 4:16, 5:20}
+
+#combine both - 
+# Hmap = {2:{1:2, 2:4, 3:6 ,4:8, 5:10}, 3:{1:3, 2:6, 3:9, 4:12, 5:15}, 4:{1:4, 2:8, 3:12, 4:16, 5:20}}
+
+print(dict == dict1 == Hmap)
+#True
