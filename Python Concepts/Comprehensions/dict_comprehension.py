@@ -23,3 +23,25 @@ print(even_dict)
 
 new_dict = {key:value for (key, value) in original_dict.items() if value%2 !=0 if value < 40}
 print('new_dict = ',new_dict)
+
+new_dict1 = {key: ('old' if value > 40 else 'young') for (key,value) in original_dict.items()}
+print(new_dict1)
+
+dict = {k1:{k2: k1*k2 for k2 in range(1,6)} for k1 in range(2,5)}
+print(dict)
+#Note - when nested loops are used, Python first executes outer loop then inner loop.
+
+#The above can also be broken dow as:
+dict1 = {}
+for k1 in range(2,5):
+    dict1[k1] = {k2:k2*k1 for k2 in range(1,6)} 
+
+print(dict1)
+
+Hmap = {}
+for k1 in range(2,5):
+    Hmap[k1] = {}
+    for k2 in range(1,6):
+        Hmap[k1][k2] = k1*k2
+
+print(Hmap)
