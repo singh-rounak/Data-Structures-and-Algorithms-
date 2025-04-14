@@ -1,0 +1,5 @@
+TYPES:
+Python in a Type inferred language - meaning we do not need to explictly infer data types while defiing the variables 
+
+LITERALS:
+These are varibles of fixed length and ca be of any datatype.
